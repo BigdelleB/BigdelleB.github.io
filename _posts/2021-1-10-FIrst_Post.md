@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You're up and running!
-
+permalink: /about/
 My first post.
 ---
 
