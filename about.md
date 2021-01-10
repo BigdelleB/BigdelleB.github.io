@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+My Personal Website to keep track of my personal projects, things I am interested in and just generally a place to journal.  
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[brianbigdelle@gmail.com](mailto:brianbigdelle@gmail.com)
