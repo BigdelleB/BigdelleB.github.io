@@ -1,9 +1,10 @@
 ---
 layout: post
 title: You're up and running!
-permalink: /about/
-My first post.
+permalink: /posts/
 ---
+
+My first post.
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
