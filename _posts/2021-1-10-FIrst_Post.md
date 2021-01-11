@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: Blog_Post
 title: Game Plan & Staying Accountable
 ---
 
