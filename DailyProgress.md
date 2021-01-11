@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Daily Progress
-permalink: /Daily Progress/
+permalink: /DailyProgress/
 ---
 
 Testing
