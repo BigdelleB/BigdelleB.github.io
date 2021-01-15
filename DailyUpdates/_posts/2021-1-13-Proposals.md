@@ -41,16 +41,3 @@ Finally Point 5 is directly due to my experiences on Freelance. Upwork requires 
 As of right now, about 5 hours after posting, I have 17 proposals, 3 or 4 of which I am going to interview and 1 of which I am very excited about. 
 
 Hoping to find the A+ dev soon!
-
-
-
-
-
-
-
-
-
-
-
-
-
