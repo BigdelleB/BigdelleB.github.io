@@ -1,0 +1,62 @@
+I"`<h1 id="the-week-in-review">The Week in Review</h1>
+
+<p>This week was instrumental, I accomplished the following:</p>
+
+<center><b>This Site </b></center>
+
+<ul>
+  <li>Set up this site with jekyll.</li>
+  <li>Added multiple categories.</li>
+  <li>Integrated in Google Analytics.</li>
+  <li>“Learned” markdown.</li>
+</ul>
+
+<center><b> DApp Business Portion </b></center>
+<ul>
+  <li>Wrote Business Plan:
+    <ul>
+      <li>Product Requirements Document.</li>
+      <li>Lean Business Plan.</li>
+      <li>Product Features Document.</li>
+    </ul>
+  </li>
+  <li>Wrote Technical Packet:
+    <ul>
+      <li>Technical Requirements Document.
+        <ul>
+          <li>Refined heavily to reflect research into ERC20 vs ERC1155 compliance.</li>
+          <li>Decided on path to rely on 0x protocol.</li>
+        </ul>
+      </li>
+      <li>Investor Presentation.</li>
+    </ul>
+  </li>
+</ul>
+
+<center><b> DApp Development </b></center>
+<ul>
+  <li>Put out job offers on Upwork, Reddit r/ethdev.
+    <ul>
+      <li>Reviewed resumes, proposals and had phone calls.</li>
+      <li>This is ongoing, more phone calls over the coming days.</li>
+    </ul>
+  </li>
+  <li>Had conversations with some promising devs on LinkedIn.</li>
+  <li>Set up search on Toptal.</li>
+</ul>
+
+<h2 id="main-push-for-next-week">Main Push for next week</h2>
+<p>I need to find a dev. This is Priority 1. I have some phone calls scheduled. I’m giving myself 2 weeks to find someone, I’m still learning how to actually hire.</p>
+
+<p>Some possible paths are to use my Cornell and JHU alumni networks, LinkedIn, Ethereum hiring web boards.</p>
+
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>This is the furthest that I’ve gotten in any of my ideas. I quote it all the time but it really was invaluable, shoutout to Ryan Shank and his <a href="https://medium.com/the-pioneers/how-i-built-and-launched-a-saas-company-for-less-than-40k-dd2775ce6bb1">blog post</a>. I need to send him a thank you email or tweet at him.</p>
+
+<p>I spent a year thinking about this idea, so the technical requirements and business plan kind of wrote themselves. I was worried initially that this felt “too easy”, but I’m trying to objectively look at what I wrote and I don’t see anything wrong with it. I wrote up an “Investor Presentation” as a visual aid to give all of my project overviews to. It is a high level, cursory, overview that is intended to be able to present to the business-types as well as developers. I don’t think that I will ever be in the scenario to ask for funding for this idea but who knows, and worst case scenario it provides me a ready presentation for showing friends and developers the vision.</p>
+
+<p>I like this format of daily updates followed by an end of week summary. It keeps me honest and motivated. I think that as the work shifts from me to a developer, I’ll flow into a PM position and my job will be to manage without micromanaging and most of my time will probably be spent reviewing code to see where we are at, understanding/anticipating roadblocks and making sure that the financials are correct.</p>
+
+<p>Anyway that’s it, that’s the week, onward we go.</p>
+
+:ET

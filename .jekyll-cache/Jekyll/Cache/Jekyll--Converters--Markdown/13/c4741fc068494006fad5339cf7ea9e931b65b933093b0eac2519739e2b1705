@@ -1,0 +1,62 @@
+I"�<p>When I worked for the DoD they used “BLUF”’s all the time. BLUF is an acronym for Bottom Line Up Front.</p>
+
+<h1 id="bluf-i-have-a-solution-use-erc20-with-a-self-destruct-after-each-game">BLUF: I have a solution, use ERC20 with a self-destruct after each game.</h1>
+
+<p>Ok now my exposition:</p>
+
+<p>The skillset of an engineer is to be able to find the <strong>optimal</strong> solution to a problem. Using an airplane isn’t a bad idea, but using an airplane as a daily commuting vehicle for the 20 miles from my house to work is idiotic. Not every solution is equal, and a piece of technology is only as powerful as the problems it solves.</p>
+
+<p>Okay so on that vein, yesterday I was panicking because I realized i did not look into the different implementations of the Ethereum token standards. Every few years, there is an Ethereum Improvement Proposal (EIP) that looks at a proposed standard to implement across Ethereum and improve its functionality. ERC20, ERC721 and ERC1155 are examples of these standards. The XX integer in ERCXX represents the proposal number, so ERC20 predates ERC721 which predates ERC1155.</p>
+
+<p>I don’t know how accurate it is to say this, but ERC20 is the backbone of Ethereum that the internet has decided to develop on. A DApp, DEX, etc needs to be ERC20 compliant, otherwise I dont know how you would interact with wallets, contracts or other tokens.</p>
+
+<p>The very high level, brief overview goes like this:</p>
+
+<h1 id="erc20">ERC20</h1>
+<ul>
+  <li>Fungible Tokens</li>
+</ul>
+
+<p>Every token is identical.</p>
+
+<h1 id="erc721">ERC721</h1>
+<ul>
+  <li>Non Fungible Tokens</li>
+</ul>
+
+<p>Every token is unique.</p>
+
+<h1 id="erc1155">ERC1155</h1>
+<ul>
+  <li>Non Fungible tokens and Fungible tokens co-exist.</li>
+</ul>
+
+<p>Contracts can create NFT and FT tokens.</p>
+
+<p>The best analogy I found is to imagine a painting like the Mona Lisa. The Mona Lisa is unique, there is only 1 in existence, so this is a NFT. There are however, tons of copies that are all fundamentally non unique, these are Fungible Tokens.</p>
+
+<h1 id="my-dilemma">My Dilemma</h1>
+
+<p>The problem is that I did not do my due diligence on this and just blindly said ERC20 like a chump.</p>
+
+<p>My DApp is kind of weird and isnt a true ERC20 but also isnt remotely similar to ERC721. Within a game, every token is identical, but between games, they are unique. Also, tokens from old games are worthless.</p>
+
+<p>With ERC20, <strong>every new game would mint a BRAND NEW class of token</strong>. That is like using an airplane to get to work. It’s a waste of computing resources and also clogs up the blockchain.</p>
+
+<p>ERC1155 is a great option, BUT, it’s newer and not everyone supports it, I want to be able to sell on an exchange protocol like <a href="https://medium.com/ledgerdex/how-to-buy-and-sell-a-crypto-token-not-listed-on-any-exchange-2cc9fbc0f003">LedgerDex</a>, built on that sweet 0x protocol. ERC721 is just not the right use case, I’m not making CryptoKitties here.</p>
+
+<p>So how can I use ERC20 <em>appropriately</em>? (See how much better my markdown is? Italics, bolds and headers are big baller stuff). Well how about I actually read the damn solidity documentation and invoke the <em>SelfDestruct()</em> method on my contract every time the game ends?</p>
+
+<p>Example:
+Game X starts, ERC20 tokens minted, game has expected life span of 1 million transactions. Since it is ERC20…</p>
+<ul>
+  <li>Metamask  and every wallet can store it.</li>
+  <li>Any Decentralized Exchange (DEX) built on 0x, which seems like every DEX, can exchange it.</li>
+  <li>My Dev doesn’t need to know ERC1155 and I can save on training costs and time associated.</li>
+</ul>
+
+<p>Then the game runs and it eventually ends. When it ends, a new contract spawns for that game, AND the previous contract selfDestructs which effectively kills the contract from being used again and frees up space on the blockchain. That invalidates all tokens of that game and they will never be used to trade again.</p>
+
+<p>I think that this is the best solution going forward.</p>
+
+:ET
