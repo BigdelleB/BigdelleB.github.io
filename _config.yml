@@ -26,7 +26,7 @@ footer-links:
   linkedin: bbigdelle/
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter: B_Bigdelle
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -50,7 +50,8 @@ url:
 baseurl: ""
 
 
-plugins: ['jekyll-twitter-plugin']
+plugins:
+  - jekyll-gist
 
 #
 # !! You don't need to change any of the configuration flags below !!
