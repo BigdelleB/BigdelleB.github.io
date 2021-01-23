@@ -26,7 +26,7 @@ Recap: South American dictator threatens to kill my Mom, she gets political asyl
 
 Now to present day.
 
-I went to Cornell for my undergrad, Johns Hopkins for my M.S., today I accepted a job offer that puts my salary higher than most of my friends parent's salaries. I have a crypto-currency Fintech idea that i'm working with some freelancers to develop and get to market, and I have no doubt in my mind that it will be a hit.
+I went to Cornell for my undergrad, Johns Hopkins for my M.S., today I accepted a phenomenal job offer taht i could not be more excited about. I have a crypto-currency Fintech idea that i'm working with some freelancers to develop and get to market, and I have no doubt in my mind that it will be a hit.
 
 My sister is going to graduate from the University of Chicago this year and afterwards hopefully pursue medical school.
 
